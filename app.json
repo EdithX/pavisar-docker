@@ -35,6 +35,10 @@
       "description": "The Linux group's ID that to run the app",
       "value": "0",
       "required": false
-    }
+    },
+    "RCLONE_CONFIG_GIST": {
+       "description": "rclone.config Gist URL",
+       "required": true
+     }
   }
 }
