@@ -38,7 +38,7 @@
     },
     "RCLONE_CONFIG_GIST": {
        "description": "rclone.config Gist URL",
-       "required": true
+       "required": false
      }
   }
 }
