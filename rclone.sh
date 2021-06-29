@@ -3,6 +3,8 @@ if [[ "$RCLONE_CONFIG_GIST" != "" ]]; then
     echo "Rclone config detected"
     curl $RCLONE_CONFIG_GIST -o /app/conf/rclone.conf
     echo "Rclone config added"
+else
+  echo "No config file"
 fi
 
 if [ "$ENABLE_RCLONE" = "true" ]; then
